@@ -1,0 +1,22 @@
+name: pycogss
+channels:
+- conda-forge
+- defaults
+
+dependencies:
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- rasterio
+- geopandas
+- shapely
+- geemap
+- earthengine-api
+- rioxarray
+- osgeo
+- pip
+
+- pip:
+  - dataretrieval
+  - lxml
