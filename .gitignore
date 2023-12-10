@@ -1,0 +1,6 @@
+*.tif*
+exploring_crossovers_ellesmere.ipynb
+*.nfs*
+*.jpg*
+*.jpeg*
+test_aoi/*
