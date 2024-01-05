@@ -3,4 +3,5 @@ exploring_crossovers_ellesmere.ipynb
 *.nfs*
 *.jpg*
 *.jpeg*
-test_aoi/*
+aoi-2-dataset/test_aoi/*
+aoi-2-dataset/test_aoi/test_aoi.*
