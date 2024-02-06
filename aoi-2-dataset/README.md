@@ -10,7 +10,6 @@ The "dataset" can be anything you want - right now the notebook shows RGB, NDVI,
 
 # To do list:
 Short term:
-- Count pixels correctly so that the white pixel threshold makes sense (right now I think it's overcounting total pixels in scene so the threshold feels low?)
 - Perform the alignment and tiling for each day of imagery within separate directories (currently all dates would be dumped into the same directory)
 - Save stack as a `.nc` file via `xarray`
 
