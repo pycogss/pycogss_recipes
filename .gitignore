@@ -5,3 +5,10 @@ exploring_crossovers_ellesmere.ipynb
 *.jpeg*
 aoi-2-dataset/test_aoi/*
 aoi-2-dataset/test_aoi/test_aoi.*
+*/*.shp
+*/*.shx
+*/*.prj
+*/*.dbf
+*/*.shp
+*/*.cpg
+*/*.csv
