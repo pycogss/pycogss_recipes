@@ -8,6 +8,10 @@ Area of interest (AOI) can be (1) arbitrary buffer around a lat long, (2) an EE-
 
 The "dataset" can be anything you want - right now the notebook shows RGB, NDVI, and elevation, but any raster data hosted on Earth Engine can be queried and downloaded. 
 
+`imagery-dem-profiler` uses `geemap` to load up a visual of a landscape and then you can draw multiple topographic profiles on that imagery. Great for exploring water tracks!
+
+`spectral-change-detector` creates annual composite images to look at pixelwise changes in spectral indices over time. Great for exploring greening and browning of water tracks!
+
 # To do list:
 Short term:
 - Perform the alignment and tiling for each day of imagery within separate directories (currently all dates would be dumped into the same directory)
@@ -15,3 +19,4 @@ Short term:
 
 Long term:
 - Basically moving to AOIs outside the Arctic. Right now Sentinel 2 is the best imagery for the Arctic but you can imagine bringing in Landsat (coarser res but longer temporal range) or NAIP imagery (infrequent but high-res for CONUS) for other applications. Thus the relevant elevation data (USGS NED, SRTM, etc) would adapt based on location of AOI. 
+
