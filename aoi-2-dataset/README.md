@@ -8,6 +8,8 @@ Area of interest (AOI) can be (1) arbitrary buffer around a lat long, (2) an EE-
 
 The "dataset" can be anything you want - right now the notebook shows RGB, NDVI, and elevation, but any raster data hosted on Earth Engine can be queried and downloaded. 
 
+`aoi-2-dataset-lite.ipynb` is a compact version that presumes you're interested in searching by HydroSHED watershed ID and quickly serves images for viewing and downloading (as our team is doing to answer science questions).
+
 
 
 # To do list:
