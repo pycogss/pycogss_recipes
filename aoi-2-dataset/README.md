@@ -8,6 +8,10 @@ Area of interest (AOI) can be (1) arbitrary buffer around a lat long, (2) an EE-
 
 The "dataset" can be anything you want - right now the notebook shows RGB, NDVI, and elevation, but any raster data hosted on Earth Engine can be queried and downloaded. 
 
+`aoi-2-dataset-lite.ipynb` is a compact version that presumes you're interested in searching by HydroSHED watershed ID and quickly serves images for viewing and downloading (as our team is doing to answer science questions).
+
+
+
 # To do list:
 Short term:
 - Perform the alignment and tiling for each day of imagery within separate directories (currently all dates would be dumped into the same directory)
@@ -15,3 +19,4 @@ Short term:
 
 Long term:
 - Basically moving to AOIs outside the Arctic. Right now Sentinel 2 is the best imagery for the Arctic but you can imagine bringing in Landsat (coarser res but longer temporal range) or NAIP imagery (infrequent but high-res for CONUS) for other applications. Thus the relevant elevation data (USGS NED, SRTM, etc) would adapt based on location of AOI. 
+
