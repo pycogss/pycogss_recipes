@@ -5,6 +5,7 @@ exploring_crossovers_ellesmere.ipynb
 *.jpeg*
 aoi-2-dataset/test_aoi/*
 aoi-2-dataset/test_aoi/test_aoi.*
+
 */*.shp
 */*.shx
 */*.prj
@@ -12,3 +13,6 @@ aoi-2-dataset/test_aoi/test_aoi.*
 */*.shp
 */*.cpg
 */*.csv
+
+spectral-change-detector/3100180240-imagery/
+spectral-change-detector/output/
