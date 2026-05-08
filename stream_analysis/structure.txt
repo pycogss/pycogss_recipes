@@ -1,0 +1,64 @@
+Folder path structure once all notebooks have run
+'...' represent more files of the same kind that likely follow.
+drive:.
+¦   GEOTIFF
+¦   
++---chi_plots
+¦       Big_Sandy_Creek_chiplot.png
+¦       Coxes_Creek_chiplot.png
+¦       Deep_Creek_chiplot.png
+	...
+¦       
++---kps_mapped
+¦       Big_Sandy_Creek_mapped.png
+¦       Coxes_Creek_mapped.png
+¦       Deep_Creek_mapped.png
+	...
+¦       
++---kp_csvs
+¦       Big_Sandy_Creek_reproj_knickpoints.csv
+¦       Coxes_Creek_reproj_knickpoints.csv
+¦       Deep_Creek_reproj_knickpoints.csv
+	...
+¦       
++---ksn_csvs
+¦       Big_Sandy_Creek_reproj_ksn.csv
+¦       Coxes_Creek_reproj_ksn.csv
+¦       Deep_Creek_reproj_ksn.csv
+	...
+¦       
++---lsht_kps
+¦       Big_Sandy_Creek_lsht_kps.csv
+¦       Coxes_Creek_lsht_kps.csv
+¦       Deep_Creek_lsht_kps.csv
+	...
+¦       
++---reproj
+¦   ¦   Big_Sandy_Creek_reproj.tiff
+¦   ¦   Coxes_Creek_reproj.tiff
+¦   ¦   Deep_Creek_reproj.tiff
+	...
+¦   ¦   
+¦   +---Big_Sandy_Creek_reproj
+¦   ¦       Big_Sandy_Creek_reproj_dataset.hdf
+¦   ¦       
+¦   +---Coxes_Creek_reproj
+¦   ¦       Coxes_Creek_reproj_dataset.hdf
+¦   ¦       
+¦   +---Deep_Creek_reproj
+¦   ¦       Deep_Creek_reproj_dataset.hdf
+¦   ¦       
+	...
+¦           
++---tri_pngs
+¦       Big_Sandy_Creek.png
+¦       Coxes_Creek.png
+¦       Deep_Creek.png
+	...
+¦       
++---wshed_dems
+        Big_Sandy_Creek.tiff
+        Coxes_Creek.tiff
+        Deep_Creek.tiff
+	...
+        
