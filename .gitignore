@@ -14,5 +14,7 @@ aoi-2-dataset/test_aoi/test_aoi.*
 */*.cpg
 */*.csv
 
-spectral-change-detector/3100180240-imagery/
+spectral-change-detector/hydroATLAS/
 spectral-change-detector/output/
+spectral-change-detector/spectral-change_ncar.ipynb
+spectral-change-detector/results.ipynb
